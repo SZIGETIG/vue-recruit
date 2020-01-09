@@ -1,17 +1,36 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { mapState, mapActions } from 'vuex'
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
+  computed: {
+    ...mapState(['userInfo']),
+    noSession() {
+      return !(this.userInfo && this.userInfo.employeeId)
+    },
+  },
+  created() {
+    this.initSessionInfo()
+    if (this.noSession) {
+      this.$router.replace('/error')
+    }
+  },
+  methods: {
+    ...mapActions(['storeSessionInfo']),
+    initSessionInfo() {
+      const employeeId = localStorage.getItem('employeeId')
+      const userInfo = {
+        employeeId
+      }
+      sessionStorage.setItem('userInfo', JSON.stringify(userInfo))
+      this.storeSessionInfo(userInfo)
+    }
   }
 }
 </script>
