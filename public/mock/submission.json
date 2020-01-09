@@ -1,0 +1,178 @@
+{
+    "entity": {
+        "serial": [
+            {
+                "value": 10
+            }
+        ],
+        "sid": [
+            {
+                "value": 36
+            }
+        ],
+        "uuid": [
+            {
+                "value": "faa6b2a7-301c-4d2e-a119-da4999f0eaac"
+            }
+        ],
+        "token": [
+            {
+                "value": "dZrth6ZxDlHLleQ0WKY8EoenPcWsyI7DUEohvWRvZ2g"
+            }
+        ],
+        "uri": [
+            {
+                "value": "/webform/onboarding/api"
+            }
+        ],
+        "created": [
+            {
+                "value": "2019-11-11T09:36:18+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "completed": [
+            {
+                "value": "2019-11-11T09:36:18+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "changed": [
+            {
+                "value": "2019-11-11T09:36:18+00:00",
+                "format": "Y-m-d\\TH:i:sP"
+            }
+        ],
+        "in_draft": [
+            {
+                "value": false
+            }
+        ],
+        "current_page": [],
+        "remote_addr": [],
+        "uid": [
+            {
+                "target_id": 0,
+                "target_type": "user",
+                "target_uuid": "654070cd-6556-4179-a389-456f1e21f26d",
+                "url": "/user/0"
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "webform_id": [
+            {
+                "target_id": "onboarding",
+                "target_type": "webform",
+                "target_uuid": "14918aa8-9aa4-4e9f-92a9-38dfde6093c6",
+                "url": "/form/onboarding"
+            }
+        ],
+        "entity_type": [],
+        "entity_id": [],
+        "locked": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "notes": []
+    },
+    "data": {
+        "accumulation_fund_account": "123456789",
+        "accumulation_fund_account_company": "群硕",
+        "accumulation_fund_account_status": "在封存办",
+        "additional_accumulation_fund_account": "123456789",
+        "bachelor_education_begin_date": "2014-09-01",
+        "bachelor_education_end_date": "2018-07-01",
+        "bachelor_major_name": "测试专业",
+        "bachelor_school_name": "测试学校",
+        "bank_card_num": "123456789",
+        "birth_date": "1995-12-30",
+        "children_num": "0",
+        "criminal_statement": "测试个人犯罪记录",
+        "disease_name": "感冒",
+        "disease_status": "治愈",
+        "duowenjian": [
+            "21",
+            "22",
+            "23"
+        ],
+        "emergency_contact_person": "Eric Wang",
+        "emergency_contact_tel": "15593564838",
+        "employee_id": "YT00791",
+        "entry_city": "shanghai",
+        "files_hosting": "0",
+        "filling_step": "0",
+        "foreign_language_level": [
+            "CET4",
+            "JLPT N1",
+            "外星语10级"
+        ],
+        "foreign_language_type": [
+            "en",
+            "ja",
+            "外星语"
+        ],
+        "full_name_en": "Eric wang",
+        "gender": "1",
+        "has_bank_card": "3",
+        "has_foreign_language": "是",
+        "has_personal_criminal_record": "有",
+        "has_working_experience": "2",
+        "healthy_statement": "曾患或正患较重大疾病",
+        "highest_education": "本科",
+        "home_phone_num": "15593564838",
+        "id_card_fore_img": "157",
+        "id_card_num": "622323199512300015",
+        "id_card_rare_img": "134",
+        "id_type": "中华人民共和国居民身份证",
+        "in_draft": "0",
+        "marital_status": "未婚",
+        "nation": "汉族",
+        "nationality": "中华人民共和国",
+        "native_place_province_city": {
+            "address": "620622",
+            "city": "620600",
+            "state_province": "620000"
+        },
+        "need_new_social_insurance": "否",
+        "partisan": "中国共青团员",
+        "shifouxuyaoxinjianzhanghu": "否",
+        "skype_account": "sunrisenew",
+        "social_insurance_last_payment_date": "2019-09-01",
+        "social_insurance_status": "在缴",
+        "sys_email_address": "sunrisenew@foxmail.com",
+        "sys_employee_id": "YT00791",
+        "sys_full_name_cn": "王伟栋",
+        "sys_mobile_phone_num": "15593564838",
+        "sys_onboard_date": "2017-10-30",
+        "wechat_account": "sunrisenew",
+        "working_address": {
+            "address": "310115",
+            "city": "310100",
+            "state_province": "310000"
+        },
+        "working_experience": [
+            {
+                "company_name": "群硕",
+                "position_name": "SE",
+                "referee_contact_info": "15593564838",
+                "referee_name": "Johnny",
+                "resignation_reason": "3",
+                "rewards_and_punishment": "没有奖罚情况",
+                "salary": "10",
+                "work_end_date": "2021-07-01",
+                "work_start_date": "2018-07-01",
+                "working_age_exclusion_months": "0"
+            }
+        ]
+    }
+}

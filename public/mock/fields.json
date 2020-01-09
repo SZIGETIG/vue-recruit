@@ -1,0 +1,49 @@
+{
+    "#type": "webform_wizard_page",
+    "#title": "个人信息",
+    "#icon": "person",
+    "#label": "个人信息",
+    "tenant": {
+        "#type": "hidden",
+        "#title": "租户",
+        "#webform": "onboarding",
+        "#webform_id": "onboarding--tenant",
+        "#webform_key": "tenant",
+        "#webform_parent_key": "step0",
+        "#webform_parent_flexbox": false,
+        "#webform_depth": 1,
+        "#webform_children": [],
+        "#webform_multiple": false,
+        "#webform_composite": false,
+        "#webform_parents": [
+            "step0",
+            "tenant"
+        ],
+        "#admin_title": "租户"
+    },
+    "#pages": [
+        {
+            "label": "个人信息",
+            "icon": "person"
+        },
+        {
+            "label": "工资卡",
+            "icon": "card"
+        },
+        {
+            "label": "教育经历",
+            "icon": "school"
+        },
+        {
+            "label": "工作经历",
+            "icon": "briefcase"
+        },
+        {
+            "label": "上传文件",
+            "icon": "cloud-upload"
+        },
+        []
+    ],
+    "#prev": null,
+    "#next": "step1"
+}
